@@ -121,7 +121,6 @@ public class SellerDaoJDBC implements SellerDao {
             DB.closeResultSet(rs);
         }
 
-
     }
 
     private Seller instantiateSeller(ResultSet rs, Department dep) throws SQLException {
@@ -144,7 +143,6 @@ public class SellerDaoJDBC implements SellerDao {
 
     @Override
     public List<Seller> findAll() {
-
 
         PreparedStatement st = null;
         ResultSet rs = null;
